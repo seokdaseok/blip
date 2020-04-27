@@ -1,0 +1,203 @@
+h1 {
+  font-size: 562%; /* makes the font size dynamic */
+  margin: 50px auto 0 auto; /* top, right, bottom, left */
+  width: 40%;
+  font-family: 'Satisfy', cursive;
+  color: #66BFBF;
+  line-height: 2; /* double's the line's height */
+}
+
+a {
+  text-decoration: none;
+  color: lime;
+}
+
+a:hover {
+  color: white;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
+
+body {
+  color: #40515E;
+  display: block; /* the body automaticly has a margin, so need to manually change to 0 */
+  margin: 0;
+  text-align: center; /* use this to center all the code */
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-top: 10px dotted grey;
+  border-left: 0;
+  width: 10%;
+}
+
+.topbar {
+  background-color: #40bad5;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1; /* changes order of z axis */
+}
+
+.pbtn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+.pbtn {
+  font-family: 'times new roman';
+  color: #14396A;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #10DEA0;
+  box-shadow: 1px 1px 1px #2AF93F;
+  padding: 11px 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #EE4524,  #CACF38);
+  background: -ms-linear-gradient(top,  #EE4524,  #CACF38);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EE4524), to(#CACF38));
+  background: -moz-linear-gradient(top,  #EE4524,  #CACF38);
+}
+.pbtn:hover {
+  color: #14396A;
+  background: #468CCF;
+  background: linear-gradient(top,  #CACF38,  #EE4524);
+  background: -ms-linear-gradient(top,  #CACF38,  #EE4524);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CACF38), to(#EE4524));
+  background: -moz-linear-gradient(top,  #CACF38,  #EE4524);
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  margin: auto 10px;
+}
+
+.foot-link:hover {
+  color: white;
+}
+
+.top-container {
+  padding-top: 50px;
+    background-color: #eff3c6;
+    position: relative; /* the parent must also have a position relative to the body */
+    top: 50px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+.cloudtop {
+  position: relative;
+  left: 20%;
+}
+
+.cloudbottom {
+  position: absolute; /* takes the element out of the flow */
+  left: 20%;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+}
+
+.game-icon {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-icon {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.learning {
+  text-decoration: underline;
+}
+
+.skill-row1 {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-row2 {
+  margin: 100px auto;
+  width: 50%;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto auto 25px auto;
+}
+.btn {
+  font-family: 'times new roman';
+  color: #14396A;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 #10DEA0;
+  box-shadow: 1px 1px 1px #2AF93F;
+  padding: 11px 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(top,  #4FEE79,  #583ACF);
+  background: -ms-linear-gradient(top,  #4FEE79,  #583ACF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4FEE79), to(#583ACF));
+  background: -moz-linear-gradient(top,  #4FEE79,  #583ACF);
+}
+.btn:hover {
+  color: #14396A;
+  background: #468CCF;
+  background: linear-gradient(top,  #583ACF,  #4FEE79);
+  background: -ms-linear-gradient(top,  #583ACF,  #4FEE79);
+  background: -webkit-gradient(linear, left top, left bottom, from(#583ACF), to(#4FEE79));
+  background: -moz-linear-gradient(top,  #583ACF,  #4FEE79);
+}
+.code-skill-details {
+  text-align: left;
+}
+
+.copyright {
+  color: white;
+}
